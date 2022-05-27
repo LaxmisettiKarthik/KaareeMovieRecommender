@@ -8,8 +8,7 @@ import android.os.Handler;
 import android.widget.TextView;
 
 import com.airbnb.lottie.LottieAnimationView;
-
-public class MainActivity3 extends AppCompatActivity {
+public class SplashActivity extends AppCompatActivity {
     TextView appname;
     LottieAnimationView lottie;
 
@@ -22,15 +21,15 @@ public class MainActivity3 extends AppCompatActivity {
         appname = findViewById(R.id.textView);
         lottie =findViewById(R.id.lottieAnimationView);
 
-        appname.animate().translationY(1500).setDuration(3000).setStartDelay(0);
-       lottie.animate().translationX(-2000).setDuration(3500).setStartDelay(1500);
+        appname.animate().translationY(1500).setDuration(4000).setStartDelay(0);
+       lottie.animate().translationX(-2000).setDuration(4000).setStartDelay(500);
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
                 Intent i = new Intent(getApplicationContext(),MainActivity.class);
                 startActivity(i);
             }
-        },3500);
+        },2650);
 
     }
 }

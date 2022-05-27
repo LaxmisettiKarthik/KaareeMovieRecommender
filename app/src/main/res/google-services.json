@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "981557768100",
+    "project_id": "kaareemovierecommender",
+    "storage_bucket": "kaareemovierecommender.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981557768100:android:b0d20a58fa592a0ec29b31",
+        "android_client_info": {
+          "package_name": "com.mvsrconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981557768100-hk16o3lu8g87fcul6flbjlrk7h3d72ag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-qutgZabHdx8bVOZcxH7QzlGDl3x5r1E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981557768100-hk16o3lu8g87fcul6flbjlrk7h3d72ag.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

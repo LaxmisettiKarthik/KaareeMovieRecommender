@@ -34,6 +34,7 @@ public class MobilenumberActivity extends AppCompatActivity {
                 Intent intent = new Intent(MobilenumberActivity.this, OTPActivity.class);
                 intent.putExtra("mobile", ccp.getFullNumberWithPlus().replace(" ", ""));
                 startActivity(intent);
+                finish();
             }
         });
 

@@ -11,15 +11,17 @@
         android:layout_width="271dp"
         android:layout_height="58dp"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="Enter OTP here"
+        android:inputType="textPersonName"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.384"/>
-    <Button android:id="@+id/b2"
+        app:layout_constraintVertical_bias="0.661" />
+
+    <Button
+        android:id="@+id/b2"
         android:layout_width="251dp"
         android:layout_height="50dp"
         android:text="Verify and Signin"
@@ -28,6 +30,23 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.571"/>
+        app:layout_constraintVertical_bias="0.803" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView"
+        android:layout_width="341dp"
+        android:layout_height="319dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="16dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/password"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
