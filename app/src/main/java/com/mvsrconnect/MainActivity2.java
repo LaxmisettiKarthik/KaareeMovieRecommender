@@ -17,7 +17,7 @@ public class MainActivity2 extends AppCompatActivity {
 
         mywebView=(WebView) findViewById(R.id.webview);
         mywebView.setWebViewClient(new WebViewClient());
-        mywebView.loadUrl("https://share.streamlit.io/laxmisettikarthik/streamlitapp/main/main.py");
+        mywebView.loadUrl("https://share.streamlit.io/laxmisettikarthik/movie_recommendation_engine/main/main.py");
         WebSettings webSettings=mywebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
         webSettings.setDomStorageEnabled(true);
