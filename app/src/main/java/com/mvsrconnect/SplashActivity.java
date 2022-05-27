@@ -19,14 +19,14 @@ public class SplashActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main3);
 
         appname = findViewById(R.id.textView);
-        lottie =findViewById(R.id.lottieAnimationView);
+        lottie =findViewById(R.id.movieEngagement);
 
         appname.animate().translationY(1500).setDuration(4000).setStartDelay(0);
        lottie.animate().translationX(-2000).setDuration(4000).setStartDelay(500);
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i = new Intent(getApplicationContext(),MainActivity.class);
+                Intent i = new Intent(getApplicationContext(),DashboardActivity.class);
                 startActivity(i);
             }
         },2650);

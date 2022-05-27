@@ -54,14 +54,4 @@
         app:layout_constraintStart_toStartOf="@+id/recommendBtn"
         app:layout_constraintTop_toBottomOf="@+id/recommendBtn" />
 
-    <Button
-        android:id="@+id/Streamlitbtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:text="Steamlit"
-        app:layout_constraintEnd_toEndOf="@+id/movielist"
-        app:layout_constraintStart_toStartOf="@+id/movielist"
-        app:layout_constraintTop_toBottomOf="@+id/movielist" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

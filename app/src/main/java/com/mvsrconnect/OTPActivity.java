@@ -97,7 +97,7 @@ public class OTPActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful())
                         {
-                            startActivity(new Intent(OTPActivity.this,MainActivity3.class));
+                            startActivity(new Intent(OTPActivity.this,SplashActivity.class));
                             finish();
 
                         } else {

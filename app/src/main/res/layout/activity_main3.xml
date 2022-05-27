@@ -8,7 +8,7 @@
 
 
     <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/lottieAnimationView"
+        android:id="@+id/movieEngagement"
         android:layout_width="318dp"
         android:layout_height="355dp"
         android:layout_marginStart="3dp"
@@ -35,9 +35,9 @@
         android:textColor="#070707"
         android:textSize="24sp"
         android:textStyle="bold|italic"
-        app:layout_constraintEnd_toEndOf="@+id/lottieAnimationView"
-        app:layout_constraintStart_toStartOf="@+id/lottieAnimationView"
-        app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView" />
+        app:layout_constraintEnd_toEndOf="@+id/movieEngagement"
+        app:layout_constraintStart_toStartOf="@+id/movieEngagement"
+        app:layout_constraintTop_toBottomOf="@+id/movieEngagement" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

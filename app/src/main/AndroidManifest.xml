@@ -15,18 +15,20 @@
         android:theme="@style/Theme.MvsrConnect"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".DashboardActivity"
+            android:exported="true" />
+        <activity
             android:name=".OTPActivity"
             android:exported="false" />
-
         <activity
-            android:name=".MainActivity3"
+            android:name=".SplashActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity2"
             android:exported="false" />
         <activity
-        android:name=".MainActivity"
-        android:exported="false"/>
+            android:name=".MainActivity"
+            android:exported="false" />
         <activity
             android:name=".MobilenumberActivity"
             android:exported="true">

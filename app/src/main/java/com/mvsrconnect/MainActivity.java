@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     EditText movie_name;
     TextView movielist;
     Button recommend;
-    Button Streamlit;
+   // Button Streamlit;
     ProgressDialog progressDialog;
 
     LottieAnimationView lottie;
@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         movie_name = findViewById(R.id.search);
         movielist = findViewById(R.id.movielist);
         recommend = findViewById(R.id.recommendBtn);
-        Streamlit = findViewById(R.id.Streamlitbtn);
+        //Streamlit = findViewById(R.id.Streamlitbtn);
         //progressBar=findViewById(R.id.progressBar);
 
 
@@ -129,7 +129,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         //StringRequest stringRequest = new StringRequest {
-    Streamlit.setOnClickListener(new View.OnClickListener() {
+  /*  Streamlit.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View v) {
 
@@ -138,7 +138,7 @@ public class MainActivity extends AppCompatActivity {
         }
     });
 
-    /*   lottie =findViewById(R.id.lottieAnimationView);
+      lottie =findViewById(R.id.lottieAnimationView);
      lottie.animate().translationY(3000).setDuration(10000);
        new Handler().postDelayed(new Runnable() {
             @Override
